@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content= "width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script> -->
+        <script src="jQuery.js" ></script>
+      
+      
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stile.css">
+        
+
+
+
+        <!-- <link href="../../assets/styles.css" rel="stylesheet" /> -->
+
+ 
+        
+    </head>
+    <body>
+
+    <div class="container"> 
+        
+        
+        <div class='div'>
+         
+            <div class="left col-lg-3"> 
+                <div class="labels">  <label for=""> <h2>Filters</h2> </label> </div>
+                <div class="divFiltar"> 
+                    <label for="" class="labels">  Time range  </label>
+                    <input class="inputDate" type="date"> 
+                    <input class="inputDate" type="date">
+                     
+                    <div>
+                        <div>Show last:</div>
+                        <div> Slider </div>
+                        <div> <ul> Lista </ul> </div>
+                    </div>
+                </div>
+                <div class="divFiltar"> 
+                    <label for="" class="labels">Call type </label>  
+                    <select  class ="selectLista">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="divFiltar"> 
+                    <label for="" class="labels">Aplication name </label>
+                    <select  class="selectLista">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="divFiltar"> 
+                    <label for="" class="labels">Call name </label> 
+                    <input type="text"> 
+                </div>
+                <div class="divFiltar"> 
+                    <label for="" class="labels">Call nesto </label>
+                    <div>
+                            <div> Slider </div>
+                            <div> <ul> Lista </ul> </div>
+                    </div>
+                </div>
+                <div class="button"> <button class="btn btn-dark">  FILTER RESULT </button></div>
+            </div>
+
+   
+    
+
+            <div class="col-lg-1"> </div>  
+            <!-- praznina -->
+
+            <div class="right col-lg-8">
+                <div id="chart"></div>
+            </div>
+
+
+        <script src="cart.js"></script>
+        <script src="main.js"></script>
+        
+
+    
+        
+    </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    font-size: small;
+}
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+}
+
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left {
+    border-radius: 8px;
+    margin-top: 50px;
+    border: solid 2px black;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.right{
+    border-radius: 8px;
+    margin-top: 50px;
+    border: solid 2px black;
+    background-color: cyan;
+}
+
+
+.divFiltar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    margin: auto 0 auto 0;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    
+}
+
+.labels{
+    margin: 0 auto 0 0;
+    font-size: medium;
+}
+
+.button{
+    margin: 0 auto 5px 0;
+    font-size: medium;
+}
+
+.inputDate{
+    border-radius: 5px;
+    font-size: 0.8em;
+   
+}
+
+.selectLista{
+    border-radius: 3px;
+}
+
+
+
